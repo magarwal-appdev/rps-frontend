@@ -13,6 +13,16 @@
   <link rel="stylesheet" href="assets/bootstrap.css">
   <script src="assets/jquery-3.3.1.js"></script>
   <script src="assets/bootstrap.bundle.js"></script>
+  
+    <!-- Connect Bootstrap JavaScript and its dependencies -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="saturday.css">
+
+  <!-- Make it responsive to small screens -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 </head>
 
@@ -43,12 +53,12 @@
       
       </div>
     
-    <div class="row mb-3">
+    <div class="row mb-1">
       
       <div class="col-md-6">
             <div class="card border-success mb-3">
             <div class="card-body text-success text-center">
-              <h2 class="card-title">We played rock!</h2>
+              <h2 class="card-title text-play">We played rock!</h2>
     
               <p class="card-text">
                 <i class="far fa-hand-rock fa-10x"></i>
@@ -60,7 +70,7 @@
       <div class="col-md-6">
             <div class="card border-danger mb-3">
               <div class="card-body text-danger text-center">
-                <h2 class="card-title">They played paper!</h2>
+                <h2 class="card-title text-play">They played paper!</h2>
       
                 <p class="card-text">
                   <i class="far fa-hand-paper fa-10x"></i>
@@ -71,10 +81,10 @@
       
     </div>
     
-    <div class="row mb-3">
+    <div class="row mb-1">
       <div class="col-md-12">
           <div class="alert alert-danger" role="alert">
-            <h2 class="text-center">
+            <h2 class="text-center text-result">
               We lost!
             </h2>
           </div>

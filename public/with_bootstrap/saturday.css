@@ -33,6 +33,10 @@ h1 {
   font-weight: 300;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 .intro-para {
   font-size: 20px;
   font-weight: 300;
@@ -41,4 +45,17 @@ h1 {
 .moves-table {
   text-align: center;
   width: 100%;
+}
+
+.body-padding {
+  padding-right: 100px;
+}
+
+.text-result {
+  font-weight: 300;
+  font-size: 70px;
+}
+
+.text-play {
+  font-size: 32px;
 }

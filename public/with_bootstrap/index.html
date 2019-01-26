@@ -17,9 +17,16 @@
   <!--Connect Google Web Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Neucha" rel="stylesheet">
   
+  <!-- Connect Bootstrap JavaScript and its dependencies -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  
   <!--Connect our custom stylesheet-->
-  <!--<link rel="stylesheet" href="../from_scratch/our_styles.css">-->
   <link rel="stylesheet" href="saturday.css">
+
+  <!-- Make it responsive to small screens -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
 </head>
 
@@ -56,7 +63,7 @@
     </div>
     
     <div class="row mb-3">
-      <div class="col-md-8">
+      <div class="col-md-8 body-padding">
           <p>
           From <a href="https://en.wikipedia.org/wiki/Rock–paper–scissors" target="_blank">Wikipedia</a>:
           </p>
@@ -92,7 +99,7 @@
             cut[s] paper"). If both players choose the same shape, the game is tied
             and is usually immediately replayed to break the tie.
           </p>
-          <table border="1" class="mb-3 moves-table">
+          <table border="1" class="mb-3 moves-table border">
             <tr>
               <td rowspan="2" colspan="2"></td>
               <td colspan="3" class="p-3 mb-2 bg-dark text-white">and they play...</td>
